@@ -1,0 +1,33 @@
+{
+  "Server": {
+    "Port"        : "41014",
+    "Connection"  : "http://",
+    "JWTSecret"   : "aignatd04121974",
+    "Server_URL"  : "https://test.mygetplus.id/services/mobileapi/20181031/",
+    "Server_Host" : "test.mygetplus.id"
+  },
+  "Msg" :
+  {
+    "msgError"      : "Error",
+    "msgDBSuccess"  : "Successfully connected to the database"
+  },
+  "Code" :
+  {
+    "Success"     : 0,
+    "Failed"      : -1,
+    "Empty"       : -2,
+    "NotSuccess"  : 201,
+    "Error"       : 202,
+    "OK"          : 200,
+    "TokenFailed" : 401
+  },
+  "RouterApiV1": {
+    "oauth"       : "/mobile/v1/oauth",
+    "member"      : "/mobile/v1/members",
+    "account"     : "/mobile/v1/account",
+    "partner"     : "/mobile/v1/partners",
+    "application" : "/mobile/v1/application",
+    "public"      : "/mobile/v1/rd",
+    "testing"     : "/mobile/v1/testing"
+  }
+}
